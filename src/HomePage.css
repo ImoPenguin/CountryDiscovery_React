@@ -1,0 +1,82 @@
+.full-screen{
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	height: 100%;
+	width: 100%;
+}
+
+.div-30{
+	width: 30%;
+}
+.div-60{
+	width: 60%;
+}
+
+.flex-hbox{
+	display: flex;
+}
+
+.flex-vbox{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-hbox-reverse{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.flex-spacer{
+	flex-grow: 1;
+}
+
+.top-nav{
+	padding: 10px 30px;
+}
+
+#purple-masking{
+	background-color: lightpink;
+	opacity: 0.3;
+}
+
+#app-title{
+	font-size: 46px;
+	color: black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	opacity: 0.8;
+	font-weight: bold;
+
+	padding-bottom: 15px;
+}
+
+#login-container{
+	background-color: white; /* Light Yellow: #FCEBC1 */
+	width: 20%;
+	padding: 40px 30px;
+
+	border-radius: 20px;
+}
+
+#login-container .textField{
+	font-size: 15px;
+
+	padding: 16px 15px;
+	margin: 10px 0px;
+	border-radius: 10px;
+	border: 0px;
+
+	background-color: #F2E3FD;
+	box-shadow: rgb(100, 100, 100) inset 1px 2px 7px;
+}
+
+#login-container-background{
+	background-color: #F8D782;
+	opacity: 0.5;
+	z-index: -1;
+
+	width: 100%;
+	height: 100%;
+}

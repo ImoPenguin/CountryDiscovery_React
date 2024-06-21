@@ -1,0 +1,42 @@
+/* Reset default margins and padding */
+body{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  /* Optional: change the background color */
+}
+
+/* Container for the floating map */
+.floating-map-container {
+  position: relative;
+  width: 100%;
+  /* Adjust the size of the container */
+  height: 100%;
+  /* Adjust the size of the container */
+}
+
+/* Floating map image */
+.floating-map {
+  width: 200%;
+  height: 115%;
+  animation: float 60s linear infinite;
+}
+
+/* Keyframes for floating animation */
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(-50%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
